@@ -1,5 +1,5 @@
 import { buildSchema } from 'graphql';
-export default buildSchema(`
+export default buildSchema(`#graphql
   type Component {
     _id: ID!
     name: String!

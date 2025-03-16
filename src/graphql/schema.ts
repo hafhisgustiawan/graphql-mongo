@@ -2,7 +2,9 @@ import { buildSchema } from 'graphql';
 
 //jadi nanti di postman, di body nya pilih tab graphql. Nanti postman bisa detect query schema yang ada, liat dokumentasi biar gak bingung
 
-export default buildSchema(`
+//5 basic scalar type (Int, Float, String, Boolean, ID)
+
+export default buildSchema(`#graphql
   type Component {
     _id: ID!
     name: String!
